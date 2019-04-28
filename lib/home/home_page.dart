@@ -3,8 +3,9 @@ import 'follow.dart';
 import 'recommend.dart';
 import 'hot.dart';
 import 'package:flutter_zhihu/global_config.dart';
-import 'package:flutter_zhihu/search_page.dart';
-import 'ask_question.dart';
+import 'package:flutter_zhihu/common/search_page.dart';
+import 'package:flutter_zhihu/common/ask_question.dart';
+import 'package:flutter_zhihu/network/network.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -15,27 +16,37 @@ class _HomeState extends State<HomePage> {
   Widget tabBar() {
     return new Container(
       child: new Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           IconButton(
             icon: Icon(Icons.note),
             onPressed: () {},
           ),
-          Expanded(
-              child: FlatButton.icon(
-                  onPressed: () {
-                    Navigator.of(context)
-                        .push(new MaterialPageRoute(builder: (context) {
-                      return new SearchPage();
-                    }));
-                  },
-                  icon: Icon(Icons.search),
-                  label: Text("《复联4》完全观影指南"))),
           FlatButton.icon(
               onPressed: () {
-                Navigator.of(context).push(new MaterialPageRoute(builder: (context){
+                Navigator.of(context)
+                    .push(new MaterialPageRoute(builder: (context) {
+                  return new SearchPage();
+                }));
+              },
+              icon: Icon(Icons.search),
+              label: Text("《复联4》完全观影指南")),
+          new Container(
+            child: GestureDetector(
+              onTap: () {
+                Navigator.of(context)
+                    .push(new MaterialPageRoute(builder: (context) {
                   return new AskQuestionPage();
                 }));
-              }, icon: Icon(Icons.palette), label: Text("提问")),
+              },
+              child: new Row(
+                children: <Widget>[
+                  Icon(Icons.palette),
+                  Text("提问",style: TextStyle(fontSize: 12.0),),
+                ],
+              ),
+            ),
+          ),
         ],
       ),
     );
@@ -54,6 +65,7 @@ class _HomeState extends State<HomePage> {
                     : Colors.blue,
                 unselectedLabelColor:
                     GlobalConfig.dark == true ? Colors.white : Colors.black,
+                indicatorSize: TabBarIndicatorSize.label,
                 tabs: [
                   new Tab(text: "关注"),
                   new Tab(text: "推荐"),
@@ -61,7 +73,7 @@ class _HomeState extends State<HomePage> {
                 ]),
           ),
           body: new TabBarView(
-              children: [new Follow(), new Recommend(), new Hot()]),
+              children: [new Follow(), new Follow(), new Follow()]),
         ));
   }
 }

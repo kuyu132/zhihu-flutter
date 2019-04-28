@@ -8,6 +8,10 @@ class Recommend extends StatefulWidget {
 }
 
 class _RecommendState extends State<Recommend> {
+
+  Widget _ListItemsBuilder (BuildContext context, int index) {
+
+  }
   @override
   Widget build(BuildContext context) {
     return new Text("test");
