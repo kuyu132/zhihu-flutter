@@ -1,22 +1,46 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:1:1-33:12
-MERGED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:1:1-33:12
-MERGED from [:fluttertoast] /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/build/fluttertoast/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/cbd2223f0204412b2db6aae25fd333b0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/b15f69c0520b04c57f561b8fd9dfa903/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/3bde9c56e8d4fd41f5f644bd93a5ceed/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c8cd12ae4e52dea3fbc4c78cb7483ced/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/de08e8adb013d2959b96f8c28c623a2e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/52183d563628dfa853d82665a49c33f0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/20cf7d9f9d1c6a3a1d241966f69bad63/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/58e8c5a60e163a497da8b75388c42c37/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/64b14157bfb81657cb7bb05908f155d5/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/da2b35aea545c70b39bc1d7ff0689ff9/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a8fab1a8f7c6bb9d3328172bbc7dd946/AndroidManifest.xml:17:1-22:12
+ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:1:1-35:12
+MERGED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:1:1-35:12
+MERGED from [:fluttertoast] /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:barcode_scan] /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/fb66e230315388d219a5eee825ef2c7c/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/09cc0c2f4e0f4ee68cd0faf20bb3e867/AndroidManifest.xml:17:1-22:12
+MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/zxing-1.9.13.aar/5ae1a01db820b87f737e29b30223b2b0/AndroidManifest.xml:2:1-13:12
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/jetified-core-1.9.13.aar/06e7a6b553a20e62888630721916ad0f/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/a481b2e740f42b9b0c36d78807dcaa76/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/89162f2bbb95c13bca77547b03917232/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/504e1da61db2241239028e51aa4c7104/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/decb927b6a571c01e3ef7861b0c01d48/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/9a11274f4a5934560b7f3d0f06e8a835/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/41e2ae077f9cc9c21958b2631a8bdd43/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/b708391383786e134f1a78e3b636aaf4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/6c6bd6fd5a408f35f40fcc05d51433e3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/8b4bf711ef4aba65aa01434c8541f5a5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/77c21707b8c5baf8a451e20aa802f70d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/63bf5dea86d0983372f0f87ad2f95f4a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/1073f3f9562cf38d6934d0f259a041c1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/def490d703c7315edb5e4a6e9695944d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/c67cde985529c7ef2cb3e683a97fc4f2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/75e03c8bca7e73548c82b11ee3f50015/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/229852c6d5d0157d36171543977a46b1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/4796595d38bedb4cc319fa88e5ac903f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/28d288a64f5cfd0bd39eff345a522951/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/cbbd63dc3719b7f6b720fbff844aaeac/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/686b39269e12468dfe34305c4d807566/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/37b2917991758bbb243c6b6428c2ad38/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/8aab98c02578387260e00a2b234d63e6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/80215ef5d528dc8fdc79490d5d9a1eed/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/eddb0f9c6f2f54ae32c2bd1f1c2c0794/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/3f346be752f52831c529ce130a18e449/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/163fa8594d9190bf91fcee83ac9ba647/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/bfc6cb657a3f83fea07c2d6d309bcc9b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/997e255caf57632e1cb3345c15b86333/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/bb15ac092cea0359313825916bb82768/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/ae67eeaf019b8394a57c34989a10a030/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -26,80 +50,154 @@ INJECTED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/
 		INJECTED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:1:1-35:12
 		INJECTED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:1:1-35:12
 		INJECTED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:9:5-65
+MERGED from [:barcode_scan] /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-65
+MERGED from [:barcode_scan] /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:9:22-62
 application
-ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:9:5-32:19
+ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:10:5-34:19
+MERGED from [:barcode_scan] /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-15:19
+MERGED from [:barcode_scan] /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-15:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/fb66e230315388d219a5eee825ef2c7c/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/fb66e230315388d219a5eee825ef2c7c/AndroidManifest.xml:22:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/zxing-1.9.13.aar/5ae1a01db820b87f737e29b30223b2b0/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/zxing-1.9.13.aar/5ae1a01db820b87f737e29b30223b2b0/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/jetified-core-1.9.13.aar/06e7a6b553a20e62888630721916ad0f/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/jetified-core-1.9.13.aar/06e7a6b553a20e62888630721916ad0f/AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.0.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/28d288a64f5cfd0bd39eff345a522951/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/28d288a64f5cfd0bd39eff345a522951/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/cbbd63dc3719b7f6b720fbff844aaeac/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/cbbd63dc3719b7f6b720fbff844aaeac/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/28d288a64f5cfd0bd39eff345a522951/AndroidManifest.xml:22:18-86
 	android:label
-		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:11:9-38
+		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:12:9-38
 	android:icon
-		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:12:9-43
+		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:13:9-43
 	android:name
-		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:10:9-57
+		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:11:9-57
 activity#com.kuyu.flutter_zhihu.MainActivity
-ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:13:9-31:20
+ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:14:9-32:20
 	android:launchMode
-		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:15:13-43
+		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:16:13-43
 	android:hardwareAccelerated
-		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:18:13-47
+		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:19:13-47
 	android:windowSoftInputMode
-		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:19:13-55
+		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:20:13-55
 	android:configChanges
-		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:17:13-144
+		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:18:13-144
 	android:theme
-		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:16:13-47
+		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:17:13-47
 	android:name
-		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:14:13-41
+		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:15:13-41
 meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
-ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:24:13-26:40
+ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:25:13-27:40
 	android:value
-		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:26:17-37
+		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:27:17-37
 	android:name
-		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:25:17-82
+		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:26:17-82
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:27:13-30:29
+ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:28:13-31:29
 action#android.intent.action.MAIN
-ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:28:17-68
+ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:29:17-68
 	android:name
-		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:28:25-66
+		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:29:17-76
+ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:30:17-76
 	android:name
-		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:29:27-74
+		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:30:27-74
+activity#com.apptreesoftware.barcodescan.BarcodeScannerActivity
+ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:33:9-90
+MERGED from [:barcode_scan] /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-91
+MERGED from [:barcode_scan] /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-91
+	android:name
+		ADDED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml:33:19-88
 uses-sdk
 INJECTED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/main/AndroidManifest.xml
-MERGED from [:fluttertoast] /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/build/fluttertoast/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:fluttertoast] /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/build/fluttertoast/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/cbd2223f0204412b2db6aae25fd333b0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/cbd2223f0204412b2db6aae25fd333b0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/b15f69c0520b04c57f561b8fd9dfa903/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/b15f69c0520b04c57f561b8fd9dfa903/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/3bde9c56e8d4fd41f5f644bd93a5ceed/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/3bde9c56e8d4fd41f5f644bd93a5ceed/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c8cd12ae4e52dea3fbc4c78cb7483ced/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c8cd12ae4e52dea3fbc4c78cb7483ced/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/de08e8adb013d2959b96f8c28c623a2e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/de08e8adb013d2959b96f8c28c623a2e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/52183d563628dfa853d82665a49c33f0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/52183d563628dfa853d82665a49c33f0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/20cf7d9f9d1c6a3a1d241966f69bad63/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/20cf7d9f9d1c6a3a1d241966f69bad63/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/58e8c5a60e163a497da8b75388c42c37/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/58e8c5a60e163a497da8b75388c42c37/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/64b14157bfb81657cb7bb05908f155d5/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/64b14157bfb81657cb7bb05908f155d5/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/da2b35aea545c70b39bc1d7ff0689ff9/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/da2b35aea545c70b39bc1d7ff0689ff9/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a8fab1a8f7c6bb9d3328172bbc7dd946/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a8fab1a8f7c6bb9d3328172bbc7dd946/AndroidManifest.xml:20:5-44
+MERGED from [:fluttertoast] /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:barcode_scan] /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:barcode_scan] /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/fb66e230315388d219a5eee825ef2c7c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/fb66e230315388d219a5eee825ef2c7c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/09cc0c2f4e0f4ee68cd0faf20bb3e867/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/09cc0c2f4e0f4ee68cd0faf20bb3e867/AndroidManifest.xml:20:5-44
+MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/zxing-1.9.13.aar/5ae1a01db820b87f737e29b30223b2b0/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/zxing-1.9.13.aar/5ae1a01db820b87f737e29b30223b2b0/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/jetified-core-1.9.13.aar/06e7a6b553a20e62888630721916ad0f/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/jetified-core-1.9.13.aar/06e7a6b553a20e62888630721916ad0f/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/a481b2e740f42b9b0c36d78807dcaa76/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/a481b2e740f42b9b0c36d78807dcaa76/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/89162f2bbb95c13bca77547b03917232/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/89162f2bbb95c13bca77547b03917232/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/504e1da61db2241239028e51aa4c7104/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/504e1da61db2241239028e51aa4c7104/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/decb927b6a571c01e3ef7861b0c01d48/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/decb927b6a571c01e3ef7861b0c01d48/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/9a11274f4a5934560b7f3d0f06e8a835/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/9a11274f4a5934560b7f3d0f06e8a835/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/41e2ae077f9cc9c21958b2631a8bdd43/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/41e2ae077f9cc9c21958b2631a8bdd43/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/b708391383786e134f1a78e3b636aaf4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/b708391383786e134f1a78e3b636aaf4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/6c6bd6fd5a408f35f40fcc05d51433e3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/6c6bd6fd5a408f35f40fcc05d51433e3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/8b4bf711ef4aba65aa01434c8541f5a5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/8b4bf711ef4aba65aa01434c8541f5a5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/77c21707b8c5baf8a451e20aa802f70d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/77c21707b8c5baf8a451e20aa802f70d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/63bf5dea86d0983372f0f87ad2f95f4a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/63bf5dea86d0983372f0f87ad2f95f4a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/1073f3f9562cf38d6934d0f259a041c1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/1073f3f9562cf38d6934d0f259a041c1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/def490d703c7315edb5e4a6e9695944d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/def490d703c7315edb5e4a6e9695944d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/c67cde985529c7ef2cb3e683a97fc4f2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/c67cde985529c7ef2cb3e683a97fc4f2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/75e03c8bca7e73548c82b11ee3f50015/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/75e03c8bca7e73548c82b11ee3f50015/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/229852c6d5d0157d36171543977a46b1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/229852c6d5d0157d36171543977a46b1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/4796595d38bedb4cc319fa88e5ac903f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/4796595d38bedb4cc319fa88e5ac903f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/28d288a64f5cfd0bd39eff345a522951/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/28d288a64f5cfd0bd39eff345a522951/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/cbbd63dc3719b7f6b720fbff844aaeac/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/cbbd63dc3719b7f6b720fbff844aaeac/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/686b39269e12468dfe34305c4d807566/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/686b39269e12468dfe34305c4d807566/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/37b2917991758bbb243c6b6428c2ad38/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/37b2917991758bbb243c6b6428c2ad38/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/8aab98c02578387260e00a2b234d63e6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/8aab98c02578387260e00a2b234d63e6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/80215ef5d528dc8fdc79490d5d9a1eed/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/80215ef5d528dc8fdc79490d5d9a1eed/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/eddb0f9c6f2f54ae32c2bd1f1c2c0794/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/eddb0f9c6f2f54ae32c2bd1f1c2c0794/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/3f346be752f52831c529ce130a18e449/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/3f346be752f52831c529ce130a18e449/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/163fa8594d9190bf91fcee83ac9ba647/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/163fa8594d9190bf91fcee83ac9ba647/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/bfc6cb657a3f83fea07c2d6d309bcc9b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/bfc6cb657a3f83fea07c2d6d309bcc9b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/997e255caf57632e1cb3345c15b86333/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/997e255caf57632e1cb3345c15b86333/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/bb15ac092cea0359313825916bb82768/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/bb15ac092cea0359313825916bb82768/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/ae67eeaf019b8394a57c34989a10a030/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/ae67eeaf019b8394a57c34989a10a030/AndroidManifest.xml:20:5-44
 INJECTED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion

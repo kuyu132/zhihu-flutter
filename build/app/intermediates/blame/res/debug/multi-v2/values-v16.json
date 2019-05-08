@@ -4,7 +4,7 @@
             "outputFile": "/Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/cbd2223f0204412b2db6aae25fd333b0/res/values-v16/values-v16.xml",
+                    "source": "/Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/09cc0c2f4e0f4ee68cd0faf20bb3e867/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/20cf7d9f9d1c6a3a1d241966f69bad63/res/values-v16/values-v16.xml",
+                    "source": "/Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/28d288a64f5cfd0bd39eff345a522951/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
