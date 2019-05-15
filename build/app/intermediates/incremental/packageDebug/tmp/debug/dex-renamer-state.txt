@@ -1,4 +1,4 @@
-#Mon Apr 29 11:59:28 CST 2019
+#Wed May 15 20:32:40 CST 2019
 base.0=/Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

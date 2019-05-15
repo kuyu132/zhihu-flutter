@@ -16,16 +16,24 @@ class _FollowState extends State<Follow> {
     );
   }
 
+  int index = 0;
+
   Widget intrestPerson(String imgName) {
-    return new Container(
-      width: 32.0,
-      height: 32.0,
-      decoration: new BoxDecoration(
-          shape: BoxShape.circle,
-          border: Border.all(width: 2.0, color: Colors.white),
-          image: new DecorationImage(
-            image: new NetworkImage(imgName),
-          )),
+    index++;
+    return new Row(
+      children: <Widget>[
+        Padding(padding: EdgeInsets.only(left: 24.0 * index)),
+        new Container(
+          width: 32.0,
+          height: 32.0,
+          decoration: new BoxDecoration(
+              shape: BoxShape.circle,
+              border: Border.all(width: 2.0, color: Colors.white),
+              image: new DecorationImage(
+                image: new NetworkImage(imgName),
+              )),
+        ),
+      ],
     );
   }
 
@@ -49,21 +57,24 @@ class _FollowState extends State<Follow> {
                   Text("发现更多感兴趣的人"),
                 ],
               ),
-              new Container(
-                child: new Row(
-                  children: <Widget>[
-                    intrestPerson(
-                        "https://pic1.zhimg.com/v2-77a117348b4156a244238d9ece687c8a_xl.jpg"),
-                    intrestPerson(
-                        "https://pic4.zhimg.com/v2-6c834533a2d0ac90a18f3c0790fc5876_xl.jpg"),
-                    intrestPerson(
-                        "https://pic2.zhimg.com/871ac5e95d09e7635e0d9354436865fc_xl.jpg"),
-                    intrestPerson(
-                        "https://pic2.zhimg.com/v2-d626957872f9b38fa594394db2d2e6e7_xl.jpg"),
-                    Icon(Icons.arrow_right),
-                  ],
-                ),
+              new Row(
+                children: <Widget>[
+                  new Stack(
+                    children: <Widget>[
+                      intrestPerson(
+                          "https://pic1.zhimg.com/v2-77a117348b4156a244238d9ece687c8a_xl.jpg"),
+                      intrestPerson(
+                          "https://pic4.zhimg.com/v2-6c834533a2d0ac90a18f3c0790fc5876_xl.jpg"),
+                      intrestPerson(
+                          "https://pic2.zhimg.com/871ac5e95d09e7635e0d9354436865fc_xl.jpg"),
+                      intrestPerson(
+                          "https://pic2.zhimg.com/v2-d626957872f9b38fa594394db2d2e6e7_xl.jpg"),
+                    ],
+                  ),
+                  Icon(Icons.arrow_right),
+                ],
               ),
+
             ],
           ),
           new Padding(padding: EdgeInsets.fromLTRB(0, 16, 0, 0)),

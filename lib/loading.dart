@@ -24,7 +24,10 @@ class _LoadingPageState extends State<LoadingPage> {
 
   @override
   Widget build(BuildContext context) {
-    return new Container(child: Image.asset("images/index.png"));
+    return new FittedBox(
+      fit: BoxFit.fill,
+      child: new Container(child: Image.asset("images/index.png")),
+    );
   }
 }
 
