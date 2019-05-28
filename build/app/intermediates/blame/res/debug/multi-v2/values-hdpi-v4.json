@@ -4,7 +4,7 @@
             "outputFile": "/Users/kuyuzhiqi/Documents/AndroidWorkspace/flutter_zhihu/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/jetified-core-1.9.13.aar/06e7a6b553a20e62888630721916ad0f/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/Users/kuyuzhiqi/.gradle/caches/transforms-1/files-1.1/jetified-core-1.9.13.aar/aeb23e5b49e336c0b986bdea3d99898d/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:barcode_scan/barcode_scan.dart';
 import 'dart:async';
 import 'package:flutter/services.dart';
+import 'package:permission_handler/permission_handler.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class ScanPage extends StatefulWidget {
   @override
@@ -27,7 +29,7 @@ class _ScanPageState extends State<ScanPage> {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 15.0, vertical: 8.0),
               child: RaisedButton(
-                onPressed: scan,
+                onPressed: requestPermission,
                 color: Colors.orange,
                 textColor: Colors.white,
                 splashColor: Colors.blueGrey,
@@ -45,6 +47,25 @@ class _ScanPageState extends State<ScanPage> {
         ),
       ),
     );
+  }
+
+  // 申请权限
+  Future<void> requestPermission() async {
+    PermissionGroup permission = PermissionGroup.camera;
+    final List<PermissionGroup> permissions = <PermissionGroup>[permission];
+    final Map<PermissionGroup, PermissionStatus> permissionRequestResult =
+        await PermissionHandler().requestPermissions(permissions);
+
+    // 申请结果
+    print(permissionRequestResult);
+    PermissionStatus status = permissionRequestResult[permission];
+
+    if (status.value == PermissionStatus.granted) {
+      Fluttertoast.showToast(msg: "权限申请通过");
+      scan;
+    } else {
+      Fluttertoast.showToast(msg: "权限申请被拒绝");
+    }
   }
 
   Future scan() async {
