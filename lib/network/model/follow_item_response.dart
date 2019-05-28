@@ -82,4 +82,5 @@ class FollowItemResponse {
         top_stories:
             topStoriesList.map((i) => Top_stories.fromJson(i)).toList());
   }
+
 }

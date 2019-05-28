@@ -5,7 +5,6 @@ import 'hot.dart';
 import 'package:flutter_zhihu/global_config.dart';
 import 'package:flutter_zhihu/common/search_page.dart';
 import 'package:flutter_zhihu/common/ask_question.dart';
-import 'package:flutter_zhihu/network/network.dart';
 
 class HomePage extends StatefulWidget {
   @override

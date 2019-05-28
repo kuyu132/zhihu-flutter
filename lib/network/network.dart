@@ -2,9 +2,11 @@ import 'package:dio/dio.dart';
 import 'dart:async';
 import 'dart:convert';
 import 'package:flutter_zhihu/network/model/follow_item_response.dart';
+import 'apis.dart';
+import 'package:flutter_zhihu/network/model/news_detail_response.dart';
+import 'package:flutter_zhihu/network/model/short_comments_response.dart';
 
 class HttpManager {
-  String base_url = "http://192.168.72.225:8989";
   Dio dio = new Dio();
 
 /*
@@ -17,11 +19,24 @@ class HttpManager {
     } catch (e) {}
   }
 
-  Future<FollowItemResponse> getQuestions() async {
-    print(base_url + "/questions");
-    Response response = await dio.get(base_url + "/questions");
-    print(response.data.toString());
-    FollowItemResponse itemResponse = FollowItemResponse.fromJson(response.data);
+  Future<FollowItemResponse> getLatestNews() async {
+    Response response = await dio.get(Apis.LATEST_NEWS);
+    FollowItemResponse itemResponse =
+        FollowItemResponse.fromJson(response.data);
     return itemResponse;
+  }
+
+  Future<NewsDetailResponse> getNewsDetail(int id) async {
+    Response response = await dio.get(Apis.NEWS_CONTENT + id.toString());
+    NewsDetailResponse newsDetailResponse =
+        NewsDetailResponse.fromJson(response.data);
+    return newsDetailResponse;
+  }
+
+  Future<ShortCommentsResponse> getShortComments(int id) async {
+    Response response = await dio.get(Apis.SHORT_COMMENTS_PREFIX +
+        id.toString() +
+        Apis.SHORT_COMMENTS_SUFFIX);
+    return ShortCommentsResponse.fromJson(response.data);
   }
 }

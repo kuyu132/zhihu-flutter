@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_zhihu/network/model/follow_item.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'page_content.dart';
 import 'package:flutter_zhihu/network/network.dart';
@@ -18,11 +17,29 @@ class _FollowState extends State<Follow> {
   void initState() {
     super.initState();
     HttpManager httpManager = new HttpManager();
-    httpManager.getQuestions().then((response) {
+    httpManager.getLatestNews().then((response) {
       setState(() {
-        storyList.addAll(response.stories);
+        storyList.addAll(convertTopStoriesToStories(response));
       });
     });
+  }
+
+  List<Stories> convertTopStoriesToStories(FollowItemResponse response) {
+    List<Top_stories> topStories = response.top_stories;
+    List<Stories> result =
+        new List();
+    for (Top_stories top_story in topStories) {
+      List<String> images = new List();
+      images.add(top_story.image);
+      result.add(Stories(
+          ga_prefix: top_story.ga_prefix,
+          id: top_story.id,
+          title: top_story.title,
+          images: images,
+          type: top_story.type));
+    }
+    result.addAll(response.stories);
+    return result;
   }
 
   Widget generateDivider() {
@@ -46,8 +63,8 @@ class _FollowState extends State<Follow> {
   }
 
   Widget _listItemBuilder(BuildContext context, int index) {
-    Fluttertoast.showToast(msg: items[index].title);
-    return new Text(items[index].title);
+    Fluttertoast.showToast(msg: storyList[index].title);
+    return new Text(storyList[index].title);
   }
 
   @override
@@ -122,8 +139,6 @@ class ListInclude extends StatelessWidget {
           return new PageContent(
             id: item.id,
             title: item.title,
-            imageUrl: item.images[0],
-            digest: item.title,
           );
         }));
       },
