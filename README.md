@@ -7,6 +7,8 @@ A new Flutter application.
 ### 存在的问题
 1. 权限申请：在申请camera权限时app无弹框，在设置中显示无权限申请；
 2. 页面上显示webview后，再跳转到新界面的话，webview界面会遮挡新的界面；
+=======
+1. 
 
 ### 应用中数据为公共的知乎日报的API
 
