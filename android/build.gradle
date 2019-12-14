@@ -13,6 +13,9 @@ buildscript {
 
 allprojects {
     repositories {
+        maven {
+            url 'http://download.flutter.io'
+        }
         google()
         jcenter()
     }
